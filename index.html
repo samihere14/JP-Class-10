@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="https://th.bing.com/th/id/R.1b65eca4feaa65efda3cfbe88294b2a1?rik=inTHPXn%2b%2bjbf%2fQ&pid=ImgRaw&r=0" alt="">
+<a href="" onclick="myfunction()">Click This</a>
+
+    <img src="https://th.bing.com/th/id/OIP.4dhb9saJ023nEAaCL_3FAAAAAA?w=471&h=626&rs=1&pid=ImgDetMain" alt="">
+<a href="" onclick="myfunction()">Click This</a>
+    
+<!-- Delete any row -->
+<table style="text-align: center;" border align="center">
+    <thead>
+    <tr>
+        <th><h1>Index</h1></th>
+        <th><h1>Name</h1></th>
+        <th><h1>Class</h1></th>
+        <th><b><h2>Delete any one</h2></b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>01</td>
+        <td>Kenny</td>
+        <td>60</td>
+        <td><button onclick="delRow(this)" style="cursor: pointer;"><b><h3>Delete this</h3></b></button></td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>Charlie</td>
+        <td>65</td>
+        <td><button onclick="delRow(this)" style="cursor: pointer;"><b><h3>Delete this</h3></b></button></td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>Paul</td>
+        <td>70</td>
+        <td><button onclick="delRow(this)" style="cursor: pointer;"><b><h3>Delete this</h3></b></button></td>
+    </tr>
+</tbody>
+</table>
+
+<!-- On Mouse and out -->
+<img id="img" src="https://thumbs.dreamstime.com/b/white-robot-blue-eyes-holding-his-hand-up-to-side-generative-ai-275152442.jpg" alt="Image" onmouseover="changeImage()" onmouseout="resetImage()">
+
+<!--Numbers Counter-->
+<h1>Numbers Counted: <span id="counter">0</span></h1>
+<button onclick="increaseCounter()">Increase</button>
+<button onclick="decreaseCounter()">Decrease</button>
+</body>
+<script src="app.js"></script>
+</html>
